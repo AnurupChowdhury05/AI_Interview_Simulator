@@ -1,0 +1,36 @@
+{
+  "name": "ai-interview-simulator",
+  "version": "1.0.0",
+  "description": "FAANG-level AI-powered interview simulator with real-time code execution, AI evaluation, and performance analytics.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@google/generative-ai": "^0.21.0",
+    "@monaco-editor/react": "^4.6.0",
+    "autoprefixer": "^10.5.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.441.0",
+    "mongoose": "^8.0.0",
+    "next": "^14.2.0",
+    "next-auth": "^4.24.0",
+    "postcss": "^8.5.10",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "recharts": "^2.13.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "typescript": "^5.0.0"
+  }
+}
